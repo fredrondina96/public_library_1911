@@ -19,5 +19,6 @@ class BookTest < MiniTest::Test
     assert_equal @book.author_last_name, "Lee"
     assert_equal @book.title, "To Kill a Mockingbird"
     assert_equal @book.publication_date, "July 11, 1960"
+    assert_equal @book.publication_year, "1960"
   end
 end

@@ -9,4 +9,8 @@ attr_reader :author_last_name, :author_first_name, :title, :publication_date
     @title = attributes[:title]
     @publication_date = attributes[:publication_date]
   end
+
+  def publication_year
+    @publication_date.split(//).last(4).join
+  end
 end
