@@ -33,4 +33,7 @@ attr_reader :name, :books, :authors
       end
       return time_frame
   end
+  # def checkout(requested_book)
+  # if @books.find {|book| book==requested_book} != nil
+  # end
 end

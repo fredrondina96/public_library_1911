@@ -21,5 +21,6 @@ attr_reader :first_name, :last_name, :books
     book_info[:title] = title
     book_info[:publication_date] = date
     books << Book.new(book_info)
+    return Book.new(book_info)
   end
 end

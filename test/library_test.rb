@@ -44,6 +44,8 @@ class LibraryTest < MiniTest::Test
     assert_equal @dpl.publication_time_frame_for(@charlotte_bronte), expected
     expected = {:start=>"1960", :end=>"1960"}
     assert_equal @dpl.publication_time_frame_for(@harper_lee), expected
-
   end
+  # def test_books_can_be_checked_out
+  #
+  # end
 end
