@@ -1,5 +1,5 @@
 require_relative '../lib/book'
-require_relative '../lib/library'
+require_relative '../lib/author'
 require "minitest/autorun"
 require "minitest/pride"
 require 'pry'
